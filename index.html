@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List with Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="todo-list">
+        <h1>Restaurant Order List</h1>
+        <div>
+            <input type="number" id="new-task" placeholder="Choose Price">
+            <input type="text" id="task-notes" placeholder="Choose Dish">
+            <label for="cars">Choose a Table:</label>
+
+            <select id="task-options">
+                <option value="Table 1">Table 1</option>
+                <option value="Table 2">Table 2</option>
+                <option value="Table 3">Table 3</option>
+            </select>
+            <button onclick="addTask()">Add to Bill</button>
+        </div>
+        <ul id="tasks"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
